@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - pet
+  - ground
   layers:
   - Default
   - TransparentFX
@@ -13,9 +15,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - BackGround
+  - Ground
+  - Pets
   - 
   - 
   - 
@@ -40,4 +42,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: backgound
+    uniqueID: 1955241145
+    locked: 0
+  - name: Ground
+    uniqueID: 3697611081
+    locked: 0
+  - name: pets
+    uniqueID: 3401199007
     locked: 0
